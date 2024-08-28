@@ -57,8 +57,6 @@ Collaborative Filtering Algorithm 🧮
 
 The movie data is sourced from the MovieLens dataset. It includes user ratings, movie titles, and genres for training the recommender system.
 
-💡 Inspiration
-This project demonstrates how machine learning can be applied to real-world problems like recommending movies based on user preferences. Collaborative filtering is widely used by streaming platforms such as Netflix and Amazon Prime!
 🚀 Future Enhancements
 🎞️ Content-based filtering: Incorporating movie metadata (genres, actors, etc.) to enhance recommendations.
 🏅 Improved User Interface: Adding a graphical UI for ease of use.
