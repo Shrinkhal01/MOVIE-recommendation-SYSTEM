@@ -37,7 +37,7 @@ pip install numpy scikit-learn
 
 ```
 
-###CLONE THE REPOSITORY
+CLONE THE REPOSITORY
 
 ```bash
 git clone https://github.com/yourusername/Movie-Recommender-System.git
