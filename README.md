@@ -46,10 +46,15 @@ python3 UI.py
 
 🧠 Technologies Used
 Python 🐍
+
 NumPy 📊
+
 Scikit-learn 🤖
+
 Collaborative Filtering Algorithm 🧮
+
 📈 Dataset
+
 The movie data is sourced from the MovieLens dataset. It includes user ratings, movie titles, and genres for training the recommender system.
 
 💡 Inspiration
