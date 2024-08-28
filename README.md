@@ -15,6 +15,32 @@ Output: Based on user input and similar users' preferences, the system recommend
 
 ⚙️ Installation & Setup
 
+Make sure you have the following libraries installed:
+-`numpy`
+-`scikit-learn`
+
+```bash
+pip install numpy scikit-learn
+
+```
+
+###CLONE THE REPOSITORY
+
+```bash
+git clone https://github.com/yourusername/Movie-Recommender-System.git
+cd Movie-Recommender-System
+```
+###RUN THE RECOMMENDOR SCRIPT
+
+```bash
+python3 recommender.py
+```
+```bash
+python3 UI.py
+```
+
+
+
 ![13C3359D-28E7-413E-A7C7-DF0FEA415D7F](https://github.com/user-attachments/assets/ba19eac0-eb40-457a-931e-7914b64174c5)
 
 
