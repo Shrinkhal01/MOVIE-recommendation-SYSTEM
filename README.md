@@ -11,6 +11,8 @@ Error Handling: Deals with missing data and encoding errors, ensuring smooth exe
 Input: User rates a set of movies.
 Data Processing: The system uses a collaborative filtering algorithm to analyze movie ratings from other users and generate a similarity matrix.
 Output: Based on user input and similar users' preferences, the system recommends movies.
+
+
 ⚙️ Installation & Setup
 
 🧠 Technologies Used
