@@ -1,15 +1,26 @@
-###🎬 Movie Recommender System 📽️
+🎬 Movie Recommender System 📽️
+
 Welcome to the Movie Recommender System, a machine learning-based project that provides personalized movie recommendations based on user preferences. 🚀
 
-###🌟 Features
+
+🌟 Features
+
+
 Collaborative Filtering: Recommends movies by finding users with similar tastes.
+
 User Input: Allows users to rate movies and receive custom recommendations.
+
 Genre-Based Recommendations: Provides movie suggestions based on selected genres.
+
 Error Handling: Deals with missing data and encoding errors, ensuring smooth execution.
 
 🛠️ How It Works
+
+
 Input: User rates a set of movies.
+
 Data Processing: The system uses a collaborative filtering algorithm to analyze movie ratings from other users and generate a similarity matrix.
+
 Output: Based on user input and similar users' preferences, the system recommends movies.
 
 
