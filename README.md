@@ -15,6 +15,9 @@ Output: Based on user input and similar users' preferences, the system recommend
 
 ⚙️ Installation & Setup
 
+![13C3359D-28E7-413E-A7C7-DF0FEA415D7F](https://github.com/user-attachments/assets/ba19eac0-eb40-457a-931e-7914b64174c5)
+
+
 🧠 Technologies Used
 Python 🐍
 NumPy 📊
