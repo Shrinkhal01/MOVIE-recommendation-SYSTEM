@@ -16,7 +16,9 @@ Output: Based on user input and similar users' preferences, the system recommend
 ⚙️ Installation & Setup
 
 Make sure you have the following libraries installed:
+
 -`numpy`
+
 -`scikit-learn`
 
 ```bash
