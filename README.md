@@ -43,7 +43,7 @@ CLONE THE REPOSITORY
 git clone https://github.com/yourusername/Movie-Recommender-System.git
 cd Movie-Recommender-System
 ```
-###RUN THE RECOMMENDOR SCRIPT
+RUN THE RECOMMENDOR SCRIPT
 
 ```bash
 python3 recommender.py
