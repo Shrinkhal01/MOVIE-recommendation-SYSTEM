@@ -1,23 +1,26 @@
-🎬 Movie Recommender System 📽️
+# Movie Recommendation System
 
-Welcome to the Movie Recommender System, a machine learning-based project that provides personalized movie recommendations based on user preferences. 🚀
+## Introduction
+Welcome to the Movie Recommendation System, a Python-based project that uses collaborative filtering to suggest movies to users based on their past ratings. This system is designed to provide personalized movie recommendations, helping users discover new movies they might enjoy.
 
+## Features
+- **Personalized Movie Recommendations**: Get tailored movie suggestions based on your past ratings.
+- **Collaborative Filtering**: Our system uses collaborative filtering to identify patterns in user behavior and recommend movies that similar users have enjoyed.
+- **Easy to Use**: Simply rate a few movies, and our system will provide you with a list of recommended movies.
 
-🌟 Features
+## Files and Instructions
 
+### Files
+- `recommender.py`: The main script that runs the movie recommendation system.
+- `movielens.py`: A module that contains the Dataset class, which loads and processes the movie rating data.
+- `data/`: A directory containing the movie rating data files.
 
-Collaborative Filtering: Recommends movies by finding users with similar tastes.
+### Instructions to Run
+1. Clone this repository to your local machine.
+2. Install the required Python packages by running:
+   ```bash
+   pip install -r requirements.txt
 
-User Input: Allows users to rate movies and receive custom recommendations.
-
-Genre-Based Recommendations: Provides movie suggestions based on selected genres.
-
-Error Handling: Deals with missing data and encoding errors, ensuring smooth execution.
-
-🛠️ How It Works
-
-
-Input: User rates a set of movies.
 
 Data Processing: The system uses a collaborative filtering algorithm to analyze movie ratings from other users and generate a similarity matrix.
 
