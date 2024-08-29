@@ -11,28 +11,28 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.metrics import mean_squared_error
 
-# Store data in arrays
+# arrays to store the data
 user = []
 item = []
 rating = []
 rating_test = []
 
 # Load the movie lens dataset into arrays
-d = Dataset()
+d = Dataset()#creating an object of the class Dataset
+
+
+#callling of methods from the file movielens.py
 d.load_users("data/u.user", user)
 d.load_items("data/u.item", item)
 d.load_ratings("data/u.base", rating)
 d.load_ratings("data/u.test", rating_test)
 
-n_users = len(user)
-n_items = len(item)
+n_users = len(user)#to get the number of users
+n_items = len(item)#to get the number of items that is movies
 
-# The utility matrix stores the rating for each user-item pair in the
-# matrix form.
 utility = np.zeros((n_users, n_items))
 for r in rating:
     utility[r.user_id - 1][r.item_id - 1] = r.rating
-
 print(utility)
 
 test = np.zeros((n_users, n_items))
